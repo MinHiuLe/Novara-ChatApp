@@ -3,6 +3,7 @@ const router = express.Router();
 const ChatSession = require('../models/ChatSession');
 const User = require('../models/User');
 const authMiddleware = require('./authMiddleware');
+const mongoose = require('mongoose');
 
 router.use(authMiddleware);
 
