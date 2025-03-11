@@ -8,16 +8,16 @@ Novara ChatApp is a real-time chat application built with **ReactJS, Express, So
 
 ## Features
 - 🔥 **Real-time Messaging** with Socket.IO
-- 🏠 **Chat Rooms** for group conversations
 - 🔐 **User Authentication** (Login & Signup)
 - 💾 **MongoDB Database** for storing messages & user data
 - 🎨 **Responsive UI** built with ReactJS
 
 ## Tech Stack
-- **Frontend:** ReactJS, Tailwind CSS
+- **Frontend:** ReactJS
 - **Backend:** Node.js, Express.js
 - **Real-time Communication:** Socket.IO
 - **Database:** MongoDB
+- **Database:** JWT
 
 ## Installation
 ### Prerequisites
