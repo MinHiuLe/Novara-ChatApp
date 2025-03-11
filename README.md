@@ -1,4 +1,4 @@
-# Novara ChatApp
+# 🌱 Novara Chat App
 
 Novara ChatApp is a real-time chat application built with **ReactJS, Express, Socket.IO, and MongoDB**. It enables users to send instant messages, and experience seamless communication with real-time updates.
 
