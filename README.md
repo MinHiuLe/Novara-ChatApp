@@ -55,7 +55,8 @@ Ensure you have **Node.js** and **MongoDB** installed.
 5. **Access the app:** Open `http://localhost:3000` in your browser or `https://novara-mu.vercel.app/` in Vercel
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/d8b5bfaa-5914-4c04-8779-10b00af79c80)
+![image](https://github.com/user-attachments/assets/2e914159-61dd-47f6-ba01-018b508d7476)
+
 
 ## Contributing
 Feel free to submit pull requests or report issues. Contributions are welcome! 🚀
