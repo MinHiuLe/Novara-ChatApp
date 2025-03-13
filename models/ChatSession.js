@@ -17,7 +17,7 @@ const chatSessionSchema = new mongoose.Schema({
       fileName: { type: String },
       fileType: { type: String },
       isFile: { type: Boolean, default: false },
-      seen: { type: Boolean, default: false }, // Thêm trường seen
+      seen: { type: Boolean, default: false }, 
       timestamp: { type: Date, default: Date.now },
     },
   ],

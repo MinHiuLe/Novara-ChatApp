@@ -19,9 +19,9 @@ router.post('/', async (req, res) => {
 
     // Fix participants sorting
     const participants = [senderId, receiverId]
-      .map(id => id.toString()) // Convert ObjectId to string
-      .sort() // Sort alphabetically
-      .map(id => mongoose.Types.ObjectId(id)); // Convert back to ObjectId
+      .map(id => id.toString()) 
+      .sort() 
+      .map(id => mongoose.Types.ObjectId(id)); 
 
     let session = await ChatSession.findOne({ participants });
     if (!session) {

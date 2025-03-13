@@ -10,6 +10,6 @@ const userSchema = new mongoose.Schema({
   phone: { type: String },
 });
 
-userSchema.index({ username: 1, email: 1 }); // Tối ưu tìm kiếm
+userSchema.index({ username: 1, email: 1 }); 
 
 module.exports = mongoose.model('User', userSchema);

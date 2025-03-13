@@ -122,6 +122,26 @@
   transform: translateY(-2px);
 }
 
+.search-bar {
+  padding: 10px 20px; /* Đồng bộ với padding của .user */
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
+}
+
 .user {
   padding: 15px 20px;
   cursor: pointer;
