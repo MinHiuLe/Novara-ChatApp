@@ -9,8 +9,8 @@ const jwt = require('jsonwebtoken');
 
 const authRoutes = require('./auth');
 const messageRoutes = require('./message');
-const User = require('../models/User');
-const ChatSession = require('../models/ChatSession');
+const User = require('../../models/User');
+const ChatSession = require('../../models/ChatSession');
 const authMiddleware = require('./authMiddleware');
 
 const app = express();
